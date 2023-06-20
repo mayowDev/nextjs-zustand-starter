@@ -1,4 +1,4 @@
-# nextjs-zustand-ts
+# nextjs-zustand-starter boilerplate
 
 A nextjs starter boilerplate with zustand v4. 
 

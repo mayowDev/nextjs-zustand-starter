@@ -1,0 +1,60 @@
+$white: #FFFFFF;
+$red: #FF0202;
+$black: #1A1A1A;
+$gray: #999999;
+$darkGray: #666666;
+
+$input-font: 16px;
+$input-err-font: 11px;
+$line-height: 16px;
+$label-font: 14px;
+$label-font-active: 14px;
+
+
+.input-group{
+    height: 74px;
+    width: 50%;
+    box-sizing: border-box;
+    display: flex;
+    padding: 1rem 0;
+    position: relative;
+    font-family: 'Maax', serif;
+    cursor: text;
+    border-radius: 2px;
+    transition: all 0.2s ease-in-out;
+    margin-bottom: 1rem;
+
+  
+    .label{
+      margin: auto 0;
+      font-size: $input-font;
+      transition: all .24s ease;
+      -webkit-transition: all .24s ease;
+      -moz-transition: all .24s ease;
+      position: absolute;
+      text-transform: none;
+      top: -2%;
+      font-family: 'Maax', serif;
+      pointer-events: none;
+      transform: translateY(-50%);
+      padding:.5 1rem;
+    }
+    .input{
+
+        font-size: 1rem;
+        line-height: 22px;
+        border: 1px solid;
+        border-radius: 10px;
+        outline: none;
+        transition-delay: 0.05s;
+        -webkit-transition-delay: 0.05s;
+        -moz-transition-delay: 0.05s;
+        padding: 1.5rem;
+        flex: 1;
+    
+        &::placeholder {
+          color: $gray;
+          padding-left: 6px;
+        }
+    }
+}
